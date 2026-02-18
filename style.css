@@ -1,0 +1,119 @@
+
+body {
+    background: #f0f2f5;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.conteudo-info {
+    width: 600px;
+}
+
+.conteudo-info h1{
+    color: rgb(42, 42, 110);
+    font-size: 3rem;
+}
+
+.conteudo-info h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.conteudo-login {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.conteudo-login-caixa{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px, rgb(0 0 0 / 10%) 0px 8px 16px;
+}
+
+.inputs {
+    padding: 15px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    outline: none;
+    width: 90%;
+    font-size: 17px;
+}
+
+.inputs:focus {
+    border-color: #565656;
+    box-shadow: 0 0 0 2px #00000030;
+}
+
+.btn {
+    padding: 15px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1rem;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.btn-entrar {
+    background: rgb(42, 42, 110);
+}
+
+.btn-entrar:hover {
+    background: rgb(21, 21, 55);
+}
+
+.btn-criar-conta {
+    background: #30742c;
+    width: auto;
+}
+
+.btn-criar-conta:hover {
+    background: #1b4e18;
+}
+
+
+a {
+    color: rgb(42, 42, 110);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid;
+}
+
+p {
+    text-align: center;
+}
+
+@media screen and (max-width:700px) {
+    .conteudo-info {
+        text-align: center;
+    }
+}
